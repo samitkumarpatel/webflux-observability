@@ -13,6 +13,7 @@ scrape_configs:
   static_configs:
   - targets:
       - localhost
+      - 192.168.0.25:8080
     labels:
       job: varlogs
       __path__: /var/log/*log

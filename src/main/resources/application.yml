@@ -5,6 +5,8 @@ spring:
     url: "r2dbc:postgresql://localhost:5432/wo"
     username: "admin"
     password: "adm123"
+  flyway:
+    url: "jdbc:postgresql://localhost:5432/wo"
 
 logging:
   pattern:
